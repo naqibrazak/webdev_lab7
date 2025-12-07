@@ -13,7 +13,7 @@ h2 {
     color: #2b3a55;
 }
 
-/* ===== Form Styling (Login, Register, Edit) ===== */
+/* Form Styling (Login, Register, Edit)*/
 form {
     max-width: 420px;
     margin: 25px auto;
@@ -80,7 +80,7 @@ a:hover {
     font-size: 14px;
 }
 
-/* ===== Table Styling (display.php) ===== */
+/* Table Styling (display.php) */
 table {
     border-collapse: collapse;
     margin: 20px auto;
@@ -118,7 +118,7 @@ tr:hover {
 }
 
 
-/* ===== Modernized Form & Table Color ===== */
+/* Modernized Form & Table Color */
 form, table {
     background: #f6f0ff;    /* Soft lavender */
     border-radius: 10px;
@@ -128,7 +128,7 @@ form, table {
     text-align: center;
     margin-top: 20px;
     font-size: 16px;
-    color: #2b3a55; /* dark bluish text, looks clean */
+    color: #2b3a55; /* dark bluish text */
     font-weight: bold;
 }
 
@@ -136,6 +136,6 @@ form, table {
     text-align: center;
     margin-top: 20px;
     font-size: 15px;
-    color: #b30000; /* nice clean red tone */
+    color: #b30000; 
     font-weight: 500;
 }
