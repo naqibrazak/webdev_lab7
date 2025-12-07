@@ -1,0 +1,141 @@
+/* ===== Global Page Styling ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffe0cc, #fff1e6);
+    margin: 0;
+    padding: 0;
+}
+
+/* Center main titles */
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #2b3a55;
+}
+
+/* ===== Form Styling (Login, Register, Edit) ===== */
+form {
+    max-width: 420px;
+    margin: 25px auto;
+    padding: 25px 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #d9dff0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0 18px 0;
+    border: 1px solid #cfd6e8;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background: #f8faff;
+}
+
+/* Input focus effect */
+form input:focus,
+form select:focus {
+    outline: none;
+    border-color: #4a73ff;
+    box-shadow: 0 0 6px rgba(74,115,255,0.4);
+}
+
+/* Buttons */
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background: #4a73ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s ease;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #3658d4;
+    box-shadow: 0 4px 10px rgba(74,115,255,0.4);
+}
+
+/* Links */
+a {
+    color: #3658d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Register/Login links under forms */
+.form-link {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+/* ===== Table Styling (display.php) ===== */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    min-width: 600px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #eae1ff;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #2b3a55;
+}
+
+td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e8e8f3;
+}
+
+/* Highlight rows on hover */
+tr:hover {
+    background: #f3f6ff;
+}
+
+/* Center Logout link */
+.logout-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    display: block;
+}
+
+
+/* ===== Modernized Form & Table Color ===== */
+form, table {
+    background: #f6f0ff;    /* Soft lavender */
+    border-radius: 10px;
+}
+
+.success-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #2b3a55; /* dark bluish text, looks clean */
+    font-weight: bold;
+}
+
+.error-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b30000; /* nice clean red tone */
+    font-weight: 500;
+}
